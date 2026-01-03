@@ -8,5 +8,5 @@ The synthetic data supports the platform's fundamental operational processes.
 
 To run the data-sharing-platform with AI, you need to 
 1. install the packages in the requirements.txt
-2. add API from LLMs
-3. streamlit run oilandgas.py
+2. add API from LLMs in the file of "oilgas.py" 
+3. streamlit run oilgas.py
