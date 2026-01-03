@@ -64,8 +64,7 @@ def General_info():
 
     # Load data safely
     try:
-        folder_path = 'oilgasdata/oilgas.xlsx'
-        df = pd.read_excel(folder_path)
+        folder_path = 'methods/public.xlsx''methods/pu'b.xlsx'ad_excel(folder_path)
     except Exception as e:
         st.error(f"Failed to load data: {e}")
         st.stop()
@@ -315,4 +314,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
